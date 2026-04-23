@@ -1,0 +1,52 @@
+{
+  "HomePage": {
+    "title": "Talker & Co",
+    "coSubtitle": "Coffee • Cacao • Company",
+    "subtitle": "Artisanal Coffee & Chocolate from Yunnan Rainforest.",
+    "buttons": {
+      "story": "Our Story",
+      "coffee": "Coffee",
+      "chocolate": "Chocolate",
+      "contact": "Contact Us",
+      "reviews": "Recognition"
+    },
+    "story": {
+      "title": "Peeling Back the Extraordinary",
+      "p1": "Born in the mist-covered highlands of Xishuangbanna, Talker & Co. represents a journey of constant evolution. Our name is a tribute to the Chinese concept of 脱壳 (Tuō ké)—the \"shelling\" of a seed. It is that pivotal moment of transformation where the outer layer is shed to reveal the treasure within.",
+      "p2": "In English, we are Talker, because we believe that once the bean is unveiled, it becomes a catalyst for connection, sparking the conversations and emotions that bring people together. As for the \"Co\" in our name? It stands for the three pillars of our soul: Coffee, Cacao, and Company.",
+      "h4": "A Growing Legacy",
+      "p5": "With over 12,000 new cacao trees now rooted in our soil, our dream continues to grow. Whether it’s the bold aroma of a fresh roast or the complex melt of our rainforest chocolate, Talker invites you to peel back the layers of the everyday and join the conversation."
+    },
+    "coffee": {
+      "title": "Rainforest Coffee",
+      "subtitle": "The Heart of the Yunnan Rainforest",
+      "description": "Yunnan is the home of Chinese coffee, and we are its dedicated storytellers. By combining the lush, high-altitude environment of our home with master roasting expertise from Taiwan, we capture the vibrant, clean flavors of the mountains. We work hand-in-hand with local farmers, honoring the land through sustainable practices and ensuring that \"specialty\" is never a luxury, but a daily standard for those who appreciate the craft behind the bean.",
+      "cta": "Discover the Process"
+    },
+    "chocolate": {
+      "title": "Bean-to-Bar Chocolate",
+      "subtitle": "A Rainforest Discovery: Bean-to-Bar",
+      "description": "Our story took an unexpected turn in 2021 when we discovered thriving cacao trees hidden within the Xishuangbanna rainforest. Driven by curiosity and the spirit of Tuō ké, we pioneered the region's first true \"bean-to-bar\" chocolate. From the initial shelling of the cacao pod to the final temper, we oversee every step to bring you the authentic, wild soul of Yunnan chocolate—a flavor found nowhere else on earth.",
+      "cta": "Discover the Process"
+    },
+    "contact": {
+      "title": "Visit the Source",
+      "subtitle": "Join us for a tasting or tour our estate.",
+      "info": "We welcome visitors for guided rainforest tours and artisanal tasting sessions.",
+      "address": "Xishuangbanna, Yunnan, China"
+    },
+    "reviews": {
+      "title": "Global Acclaim",
+      "subtitle": "See what others are saying about Talker & Co.",
+      "placeholder": "News, reviews, and accolades will be displayed here."
+    }
+  },
+  "CoffeePage": {
+    "title": "The Coffee Collection",
+    "description": "Discover single-origin beans from our Yunnan rainforest estates, roasted in small batches to reveal the unique character of our territory."
+  },
+  "ChocolatePage": {
+    "title": "Artisanal Chocolate",
+    "description": "True bean-to-bar craftsmanship. We use only 2-3 minimal ingredients to ensure the purity and power of our forest-grown cacao shines through."
+  }
+}

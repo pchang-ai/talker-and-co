@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #0B1A0E;
+  --color-cream: #F5F5DC;
+  --color-gold: #D4AF37;
+  --color-moss: #4A5D23;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+/* Force the requested palette */
+:root {
+  background-color: #0B1A0E !important;
+  color: #F5F5DC !important;
+}
+
+body {
+  background-color: #0B1A0E !important;
+  color: #F5F5DC !important;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+.serif {
+  font-family: var(--font-serif);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(245, 245, 220, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 245, 220, 0.1);
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(74, 93, 35, 0.2) 0%, transparent 70%);
+}
+
+/* Reset some default Next.js / Tailwind v4 behaviors */
+* {
+  border-color: rgba(245, 245, 220, 0.1);
+}
