@@ -152,13 +152,23 @@ export default async function Home() {
             <span className="text-xs font-medium tracking-[0.4em] uppercase text-gold">{t('contact.title')}</span>
             <h2 className="text-4xl md:text-6xl font-medium serif text-cream leading-tight">{t('contact.subtitle')}</h2>
           </div>
-          <p className="text-lg text-cream/60 leading-relaxed font-light">{t('contact.info')}</p>
+          
+          <div className="flex flex-col gap-4">
+            <p className="text-lg text-cream/60 leading-relaxed font-light">{t('contact.info')}</p>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 justify-center text-cream/80 font-mono text-sm mt-2">
+              <a href={`mailto:${t('contact.email')}`} className="hover:text-gold transition-colors text-[11px] sm:text-xs tracking-wider uppercase">Email: {t('contact.email')}</a>
+              <a href={`tel:${t('contact.phone').replace(/\s+/g, '')}`} className="hover:text-gold transition-colors text-[11px] sm:text-xs tracking-wider uppercase">Phone: {t('contact.phone')}</a>
+            </div>
+          </div>
 
           <div className="h-[1px] w-12 bg-gold/20" />
 
           <div className="flex flex-col gap-2">
             <span className="text-xs font-bold tracking-[0.2em] uppercase text-cream/40">Our Estate</span>
-            <p className="text-xl serif text-cream italic">{t('contact.address')}</p>
+            <p className="text-xl md:text-2xl serif text-cream italic leading-relaxed">
+              {t('contact.address1')}<br />
+              {t('contact.address2')}
+            </p>
           </div>
 
           <button className={buttonClass}>
